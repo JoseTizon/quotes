@@ -1,0 +1,30 @@
+.Container{
+  display: flex;
+  justify-content: center;
+  margin-top: 10rem;
+}
+
+.App {
+  text-align: center;
+  background-color: white;
+  width: 600px;
+  padding: 15px;
+  border-radius: 10px;
+  box-shadow: 10px 10px 5px 0px rgba(0,0,0,0.5);
+  margin: 15px;
+}
+
+.App button{
+  border-radius: 50%;
+  width: 50px;
+  height: 50px;
+  border: none;
+  color: white;
+  cursor: pointer;
+  font-size: 18px;
+  float: right;
+}
+
+p i {
+  font-size: 50px;
+}
