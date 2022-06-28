@@ -6,7 +6,10 @@ const Quotes = () => {
     const random = Math.floor(Math.random() * quotes.length)
 
     const [quoteNum, setQuoteNum] = useState(random)
-    const nextQuote = () => setQuoteNum(random)
+    const nextQuote = () => {
+        const random = Math.floor(Math.random() * quotes.length)
+        setQuoteNum(random)
+    }
 
     const colors = ["#845EC2", "#00C9A7", "#D65DB1", "#4D8076", "#FF9671", "#C34A36", "#3596B5"]
     const randomColorIndex = Math.floor(Math.random() * colors.length)
